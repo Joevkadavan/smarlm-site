@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #222;
+}
+
+header {
+  background: #1a73e8;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #1a73e8;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+button, .cta {
+  display: inline-block;
+  background: #1a73e8;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+button:hover, .cta:hover {
+  background: #0c5bd4;
+}
+.qr-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.qr-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.qr-section p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.qr-code {
+  width: 180px;
+  height: 180px;
+  border: 4px solid #2c3e50;
+  border-radius: 12px;
+  padding: 8px;
+  background: #fff;
+}
